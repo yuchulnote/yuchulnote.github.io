@@ -109,7 +109,10 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:drivegod5@naver.com"
+      #url: "mailto:drivegod5@naver.com"
+    - label: "Naver_Blog"
+      icon: "fas fa-fw fa-link"
+      url: "https://blog.naver.com/drivegod5"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
@@ -122,9 +125,7 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/yuchul2_0_0/"
-      - label: "Naver_Blog"
-      icon: "fas fa-fw fa-link"
-      url: "https://blog.naver.com/drivegod5"
+      
   
   
 # Site Footer
