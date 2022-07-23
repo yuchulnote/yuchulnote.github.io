@@ -1,7 +1,7 @@
 # main links
 main:
-- title: "Quick-Start Guide"
-  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+#- title: "Quick-Start Guide"
+  #url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
 # - title: "About"
 #   url: https://mmistakes.github.io/minimal-mistakes/about/
 # - title: "Sample Posts"
@@ -15,4 +15,4 @@ side:
 - title: Machine Learning
   children:
     - title: "Deep Learning"
-      url: /categories/Deep_Learning_Study/
+      url: /categories/Deep_Learning_Study/ 
