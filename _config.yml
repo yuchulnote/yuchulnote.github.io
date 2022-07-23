@@ -292,7 +292,9 @@ defaults:
       related: true
       toc_sticky: true
       mathjax: true
-
+      sidebar_main: true
+      sidebar:  
+      nav: "side"
 
 # _pages
   - scope:
@@ -308,5 +310,5 @@ defaults:
       toc_sticky: true
       mathjax: true
       sidebar_main: true
-      # sidebar:  
-      #   nav: "side"
+      sidebar:  
+      nav: "side"
