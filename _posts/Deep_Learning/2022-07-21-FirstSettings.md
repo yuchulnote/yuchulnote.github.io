@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "Welcome to Yuchul's note!"
+sidebar_main: true
+toc : true
 ---
 
 # 안녕하세요~
@@ -10,5 +12,3 @@ title:  "Welcome to Yuchul's note!"
 하는 생각이 드네요
 
 아직 이미지도 어떻게 올려야하는지 모르고 당장에 딥러닝 스터디 공부도 해야하는데 진작에 공부좀 해놓을걸 그랬네요 ㅋㅋ
-
-# ㄴㅇㅇㅇ
