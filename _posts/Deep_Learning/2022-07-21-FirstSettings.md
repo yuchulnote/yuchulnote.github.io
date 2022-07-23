@@ -1,8 +1,13 @@
 ---
-layout: post
-title:  "Welcome to Yuchul's note!"
-sidebar_main: true
+title : "Welcome to Yuchul's note"
+category :
+    - Deep_Learning_Study
+tag :
+    - Deep_Learning_Study
 toc : true
+toc_sticky: true
+comments: true
+sidebar_main: true
 ---
 
 # 안녕하세요~
