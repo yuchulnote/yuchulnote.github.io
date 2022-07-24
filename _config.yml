@@ -24,7 +24,7 @@ name                     : "Jung-Yuchul"
 description              : "keep studing."
 url                      : "https://yuchulnote.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "Jung-Yuchul/yuchulnote.github.io"
+repository               : "yuchulnote/yuchulnote.github.io"
 teaser                   : #"/assets/images/500x300.png"
 logo                     : #"/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
