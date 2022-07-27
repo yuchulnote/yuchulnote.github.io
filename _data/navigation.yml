@@ -1,5 +1,4 @@
 # main links
-main:
 #- title: "Quick-Start Guide"
   #url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
 # - title: "About"
@@ -11,8 +10,23 @@ main:
 # - title: "Sitemap"
 #   url: /sitemap/
 
+main:
+  - title: "About Me & CV"
+    url: /Aboutme/
+  - title: "Posts"
+    url: /categories/
+  - title: "Email"
+    url: /Aboutme/email
+
+
 side:
-- title: Machine Learning
-  children:
-    - title: "Deep Learning"
-      url: /categories/Deep_Learning_Study/ 
+  - title: Machine Learning
+    children:
+      - title: "Deep Learning"
+        url: /categories/Deep_Learning_Study/2022-Summer_study
+      - title: "Fun"
+        url: /categories/Fun
+  - title: Python
+    children:
+      - title: "about Python"
+        url: /categories/aboutpython/ 
