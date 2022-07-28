@@ -10,17 +10,19 @@ sidebar_main: true
 
 I am so glad to see you here, cause you are interested in me! 😁
 
-I have a dream of **Strong Ai**, everyone has a Android Robot which can think and speak just like human being. 🤖
+I am dreaming the world of **Strong Ai**, everyone has a Android Robot which can think and speak just like human being. 🤖
 
 **So, i am interested in ...**
 
 🎙 **Audio Deep Learning**
+
 💭 **Human Robot Interaction & Communication**
+
 ...etc
 
 I have a goal to make a AI assistance like Jarvis in Iron Man before i graduate.
 
-I don't know if i can make it, but i won't stop.
+I don't know if i can make it, but **i won't stop.**
 
 ## 🐯 About Me
 
