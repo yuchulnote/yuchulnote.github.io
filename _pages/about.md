@@ -10,7 +10,7 @@ sidebar_main: true
 
 I am so glad to see you here, cause you are interested in me! 😁
 
-I have a dream of **Strong Ai** , everyone has a Android Robot which can think like human and speak like human. 🤖
+I have a dream of **Strong Ai** , everyone has a Android Robot which can think and speak just like human being. 🤖
 
 **So, i am interested in ...**
 
@@ -18,13 +18,14 @@ I have a dream of **Strong Ai** , everyone has a Android Robot which can think l
 💭 **Human Robot Interaction & Communication**
 ...etc
 
-I want to made the AI assistance like Jarvis in Iron Man before i graduate.
+I have a goal to make a AI assistance like Jarvis in Iron Man before i graduate.
+
+I don't know if i can make it, but i won't stop.
 
 ## 🐯 About Me
 
 * Student, Department of Robotics, Kwangwoon University. (2022.3~)
     * Major in Intelligent System
-<br>
 
 * Club : BARAM (Robotics Academic Group). (2022.3~)
 
