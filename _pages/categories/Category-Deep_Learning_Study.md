@@ -1,6 +1,6 @@
 ---
 title: "2022 Summer Deep_Learning Study"
-permalink: /categories/Deep_Learning/2022-Summer_study
+permalink: /categories/Machine_Leaning/Deep_Learning/2022-Summer_study
 layout: category
 author_profile: true
 toc: true
