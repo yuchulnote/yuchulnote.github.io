@@ -1,7 +1,7 @@
 ---
 title : "Welcome to Yuchul's note"
 categories :
-    - Machine_Leaning/Deep_Learning/2022-Summer_study
+    - Deep_Learning_Study
 tag :
     - Deep_Learning_Study
 toc : true
