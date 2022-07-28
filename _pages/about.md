@@ -10,7 +10,7 @@ sidebar_main: true
 
 I am so glad to see you here, cause you are interested in me! 😁
 
-I have a dream of **Strong Ai** , everyone has a Android Robot which can think and speak just like human being. 🤖
+I have a dream of **Strong Ai**, everyone has a Android Robot which can think and speak just like human being. 🤖
 
 **So, i am interested in ...**
 
