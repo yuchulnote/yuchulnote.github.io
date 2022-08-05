@@ -26,8 +26,6 @@ I don't know if i can make it, but **i won't stop.**
 
 ## 🐯 About Me
 
-* A. S. Graduate, Non-Destructive-Inspection (2018.3 ~ 2019.7 & 2021.8 ~ 2022.2)
-
 * B. S. Student, Department of Robotics, Kwangwoon University. (2022.3~)
     * Major in Intelligent System
 
