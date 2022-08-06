@@ -25,9 +25,9 @@ side:
   - title: Machine Learning
     children:
       - title: "Deep Learning"
-        url: /categories/Machine_Learning/Deep_Learning_Study
+        url: /categories/Deep_Learning_Study
       - title: "Fun"
-        url: /categories/Machine_Learning/Deep_Learning_Study/Fun
+        url: /categories/Fun
   - title: Python
     children:
       - title: "about Python"
