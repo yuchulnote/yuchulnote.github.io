@@ -32,3 +32,5 @@ side:
     children:
       - title: "Python"
         url: /categories/Python
+      - title: "C"
+        url: /categories/C

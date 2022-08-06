@@ -37,6 +37,11 @@
                     {% if category[0] == "Python" %}
                         <li><a href="/categories/Python" class=""> Python ({{category[1].size}})</a></li>
                     {% endif %}
+
+                    {% if category[0] == "C" %}
+                        <li><a href="/categories/C" class=""> C ({{category[1].size}})</a></li>
+                    {% endif %}
+
                 {% endfor %}
             </ul>
       </li>
