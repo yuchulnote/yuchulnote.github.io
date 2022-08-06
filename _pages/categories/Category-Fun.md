@@ -1,14 +1,14 @@
 ---
-title: "Study about Python"
-permalink: /categories/aboutpython/
+title: "2022 Summer Deep_Learning Study"
+permalink: /categories/Machine_Leaning/Deep_Learning_Study/Fun
 layout: category
 author_profile: true
 toc: true
 sidebar_main: true
-taxonomy: Python
+taxonomy: Fun
 ---
 
-# 2022년 여름방학 개인공부
+# Teachablemachine을 이용한 마스크착용유무 판단 딥러닝모델입니다.
 
 {% assign posts = site.categories.Cpp %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}
