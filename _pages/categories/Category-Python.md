@@ -1,6 +1,6 @@
 ---
-title: "Study about Python"
-permalink: /categories/aboutpython/
+title: "Python"
+permalink: /categories/Python/
 layout: category
 author_profile: true
 toc: true
