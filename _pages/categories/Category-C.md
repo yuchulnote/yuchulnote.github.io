@@ -1,5 +1,5 @@
 ---
-title: "C"
+title: "C_Programing"
 permalink: /categories/C
 layout: category
 author_profile: true
