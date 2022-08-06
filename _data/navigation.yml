@@ -28,6 +28,7 @@ side:
         url: /categories/Deep_Learning_Study
       - title: "Model"
         url: /categories/Models
+ 
   - title: Language
     children:
       - title: "Python"
