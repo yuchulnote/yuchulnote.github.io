@@ -1,7 +1,7 @@
 ---
 title : "Welcome to Yuchul's note"
 categories :
-    - Deep_Learning_Study
+    - Machine_Learning/Deep_Learning_Study
 tag :
     - Deep_Learning_Study
 toc : true

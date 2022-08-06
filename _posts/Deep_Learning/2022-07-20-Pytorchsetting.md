@@ -1,7 +1,7 @@
 ---
 title : "Pytorch 환경구축 (Anaconda, docker) for Mac"
 categories :
-    - Deep_Learning_Study
+    - Machine_Learning/Deep_Learning_Study
 tag :
     - Deep_Learning_Study
 toc : true
