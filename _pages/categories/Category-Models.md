@@ -1,11 +1,11 @@
 ---
 title: "Deep_Learning_Models"
-permalink: /categories/model
+permalink: /categories/Models
 layout: category
 author_profile: true
 toc: true
 sidebar_main: true
-taxonomy: model
+taxonomy: Models
 ---
 
 {% assign posts = site.categories.Cpp %}
