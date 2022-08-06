@@ -26,8 +26,8 @@ side:
     children:
       - title: "Deep Learning"
         url: /categories/Deep_Learning_Study
-      - title: "Fun"
-        url: /categories/Fun
+      - title: "Model"
+        url: /categories/model
   - title: Python
     children:
       - title: "about Python"

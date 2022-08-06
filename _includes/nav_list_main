@@ -22,6 +22,10 @@
                     {% if category[0] == "Deep_Leaning-Study" %}
                         <li><a href="/categories/Deep_Leaning-Study" class="">Deep Leaning Study ({{category[1].size}})</a></li>
                     {% endif %}
+
+                    {% if category[0] == "Model" %}
+                        <li><a href="/categories/model" class="">Models ({{category[1].size}})</a></li>
+                    {% endif %}
                 
             
                 {% endfor %}
@@ -30,8 +34,8 @@
         <span class="nav__sub-title">Python</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Pyhon" %}
-                        <li><a href="/categories/Python" class=""> Python Study ({{category[1].size}})</a></li>
+                    {% if category[0] == "aboutpython" %}
+                        <li><a href="/categories/aboutpython" class=""> Python Study ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
