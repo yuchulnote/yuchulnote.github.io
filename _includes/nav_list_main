@@ -24,7 +24,7 @@
                     {% endif %}
 
                     {% if category[0] == "Model" %}
-                        <li><a href="/categories/Model" class="">Models ({{category[1].size}})</a></li>
+                        <li><a href="/categories/Models" class="">Models ({{category[1].size}})</a></li>
                     {% endif %}
                 
             
