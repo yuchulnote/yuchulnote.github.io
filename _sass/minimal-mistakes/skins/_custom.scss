@@ -5,7 +5,7 @@
 /* Colors */
 $background-color: #ffffff !default;
 $text-color: #1d1d22 !default;
-$muted-text-color: #37375c !default;
+$muted-text-color: #000000 !default;
 $primary-color: #f7cf4e !default;
 $border-color: mix(#87a5c9, #393e46, 75%) !default;
 $footer-background-color: $primary-color !default;
@@ -15,9 +15,10 @@ $masthead-link-color-hover: $text-color !default;
 $navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
 
 .page__footer {
-  color: #e6e6ff !important; // override
+  color: #000000 !important; // override
 }
 
 .page__footer-follow .social-icons .svg-inline--fa {
   color: inherit;
 }
+
