@@ -23,7 +23,7 @@
                         <li><a href="/categories/Deep_Learning_Study" class="">Deep Leaning Study ({{category[1].size}})</a></li>
                     {% endif %}
 
-                    {% if category[0] == "Voice_Recognition" %}
+                    {% if category[0] == "VoiceRecognition" %}
                         <li><a href="/categories/VoiceRecognition" class="">Voice Recognition ({{category[1].size}})</a></li>
                     {% endif %}
 
