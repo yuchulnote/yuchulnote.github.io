@@ -44,7 +44,7 @@ comments:
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
   utterances:
-    theme                : "github-light" # "github-light" (default), "github-dark"
+    theme                : "github-dark" # "github-light" (default), "github-dark"
     issue_term           : "title" # "pathname" (default)
   staticman:
     branch               : # "master"
@@ -103,7 +103,7 @@ analytics:
 author:
   name             : "Yuchul"
   avatar           : "/assets/blogdoor.jpg"
-  bio              : "KWU student, department of **Robotics**, dreaming of **Strong AI** "
+  bio              : "B.S. student, department of **Robotics**, dreaming of **Strong AI** "
   location         : "Seoul, Republic of Korea"
   email            : "drivegod5@naver.com"
   links:
