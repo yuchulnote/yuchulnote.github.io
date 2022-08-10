@@ -56,6 +56,13 @@
                         <li><a href="/categories/GitBlog" class="">깃블 오류 및 꾸미기 ({{category[1].size}})</a></li>
                     {% endif %}
 
+        <span class="nav__sub-title">Firmware</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "ATmega128" %}
+                        <li><a href="/categories/ATmega128" class="">ATmega128 ({{category[1].size}})</a></li>
+                    {% endif %}           
+
                 {% endfor %}
             </ul>
       </li>
