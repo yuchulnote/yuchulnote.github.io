@@ -19,6 +19,7 @@
                 <!--Cpp 카테고리 글들을 모아둔 페이지인 /categories/cpp 주소의 글로 링크 연결-->
                 <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
                 {% for category in site.categories %}
+                    
                     {% if category[0] == "Deep_Learning_Study" %}
                         <li><a href="/categories/Deep_Learning_Study" class="">Deep Leaning Study ({{category[1].size}})</a></li>
                     {% endif %}
@@ -38,6 +39,7 @@
         <span class="nav__sub-title">Language</span>
             <ul>
                 {% for category in site.categories %}
+                    
                     {% if category[0] == "Python" %}
                         <li><a href="/categories/Python" class=""> Python ({{category[1].size}})</a></li>
                     {% endif %}
@@ -52,6 +54,7 @@
         <span class="nav__sub-title">GitBlog</span>
             <ul>
                 {% for category in site.categories %}
+                    
                     {% if category[0] == "GitBlog" %}
                         <li><a href="/categories/GitBlog" class="">깃블 오류 및 꾸미기 ({{category[1].size}})</a></li>
                     {% endif %}
@@ -62,6 +65,7 @@
         <span class="nav__sub-title">Firmware</span>
             <ul>
                 {% for category in site.categories %}
+                    
                     {% if category[0] == "ATmega128" %}
                         <li><a href="/categories/ATmega128" class="">ATmega128 ({{category[1].size}})</a></li>
                     {% endif %}           
@@ -72,9 +76,14 @@
          <span class="nav__sub-title">Application_Development</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "ApplicationDevelopment" %}
-                        <li><a href="/categories/ApplicationDevelopment" class="">App ({{category[1].size}})</a></li>
-                    {% endif %}           
+                    
+                    {% if category[0] == "Intro" %}
+                        <li><a href="/categories/Intro" class="">Intro ({{category[1].size}})</a></li>
+                    {% endif %}     
+                    
+                    {% if category[0] == "JavaScript" %}
+                        <li><a href="/categories/JavaScript" class="">JavaScript ({{category[1].size}})</a></li>
+                    {% endif %}
 
                 {% endfor %}
             </ul>
