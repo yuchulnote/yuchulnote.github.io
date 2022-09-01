@@ -8,7 +8,5 @@ sidebar_main: true
 taxonomy: Deep_Learning_Study
 ---
 
-BoostCourse를 통한 Deep Learning study 입니다.
-
 {% assign posts = site.categories.Cpp %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}
