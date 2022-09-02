@@ -21,6 +21,8 @@ published: true
 
 > 오늘은 Google에서 발표한 논문 Attention is all you need(NIPS)에서 소개한 모델 Transformer에 대해서 알아보겠습니다.
 
+## Seq2seq Machine Translation
+
 [Seq2seq] 
 
 [Seq2seq]:https://yuchulnote.github.io/deep_learning_study/Lab11-5/
@@ -32,6 +34,9 @@ seq2seq 모델의 단점은 아래와 같습니다.
 1) 상당한 계산복잡도
 2) RNN에서 layer 내에서 병렬처리 불가
 3) long-range-dependency를 가진 정보를 참조하는 경우 긴 path를 거쳐 전달된다
+<br>
+
+## RNN
 
 <p align="center"><img src="/MYPICS/Deep_Learning/transformer/1.gif" width = "700" ></p>
 
@@ -44,8 +49,15 @@ seq2seq 모델의 단점은 아래와 같습니다.
 <p align="center"><img src="/MYPICS/Deep_Learning/transformer/2.png" width = "700" ></p>
 
 하지만 위 사진에서 볼 수 있듯이, like는 여러 hidden layer를 거치며, 그 정보가 희석됐을 확률이 높습니다.
+<br>
+
+## RNN with attention
 
 이러한 RNN의 단점을 극복하기 위해 제안된 모델이 Attention을 사용하는 모델입니다.
+
+### Attention
+
+attention 은 주로 자연어 처리에 사용되는데, attention은 해당 시점에서 예측해야할 단어와 관련있는 입력 단어(Input word)를 중점적으로 본다고 할 수 있습니다.
 
 <p align="center"><img src="/MYPICS/Deep_Learning/transformer/3.gif" width = "700" ></p>
 
@@ -60,3 +72,12 @@ input sentence 각각의 단어에 해당하는 hidden layer와 당장 출력해
 **만약 attention을 통해 참조해야할 source의 위치를 알 수 있다면, 굳이 sequence를 고려할 필요가 있나??** 라는 점입니다.
 
 <p align="center"><img src="/MYPICS/Deep_Learning/transformer/4.png" width = "700" ></p>
+
+위 이미지와 같이 **오직 input과 이전 output 값들의 attention만을 이용하여 다음 단어를 출력하여 계산 복잡도를 축소할 수는 없을까?** 라는 것이 핵심입니다.
+<br>
+
+## Self-attention
+
+<p align="center"><img src="/MYPICS/Deep_Learning/transformer/self_attention.gif" width = "700" ></p>
+
+기존 attention 모델이 output을 출력할 때만, attention을 이용했다면, Transformer는 sequence 내에서 단어 간의 관계 정보를 self-attention을 이용해 미리 계산합니다.
