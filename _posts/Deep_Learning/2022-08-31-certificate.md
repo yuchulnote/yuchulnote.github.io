@@ -14,9 +14,9 @@ published: true
 
 # 수료증
 <br>
-<p align="center"><img src="/MYPICS/Deep_Learning/certificate/certificate_ko.jpg" width = "700" ></p>
+<p align="center"><img src="/MYPICS/Deep_Learning/certificate/certificate_ko.JPG" width = "700" ></p>
 
-<p align="center"><img src="/MYPICS/Deep_Learning/certificate/certificate_en.jpg" width = "700" ></p>
+<p align="center"><img src="/MYPICS/Deep_Learning/certificate/certificate_en.JPG" width = "700" ></p>
 
 ## 마치며
 
