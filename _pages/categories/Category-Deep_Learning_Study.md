@@ -1,5 +1,5 @@
 ---
-title: "2022 Summer Deep Learning Study"
+title: "Deep Learning 공부"
 permalink: /categories/Deep_Learning_Study
 layout: category
 author_profile: true
