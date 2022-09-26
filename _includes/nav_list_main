@@ -21,7 +21,7 @@
                 {% for category in site.categories %}
                     
                     {% if category[0] == "Deep_Learning_Study" %}
-                        <li><a href="/categories/Deep_Learning_Study" class="">Deep Leaning Study ({{category[1].size}})</a></li>
+                        <li><a href="/categories/Deep_Learning_Study" class="">Deep Leaning ({{category[1].size}})</a></li>
                     {% endif %}
 
                     {% if category[0] == "VoiceRecognition" %}
