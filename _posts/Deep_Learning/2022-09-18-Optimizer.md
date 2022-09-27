@@ -3,7 +3,7 @@ title : "Optimizer 총정리 : GD, SGD, Momentum, Adagrad, RMSProp, Adam"
 categories :
     - Deep_Learning_Study
 tag :
-    - [Deep_Learning_Study, Optimizer, GD, SGD, Momentum, Adagrad, RMSProp, Adam]
+    - [Deep_Learning, Optimizer, GD, SGD, Momentum, Adagrad, RMSProp, Adam, Python, Numpy]
 toc : true
 toc_sticky: true
 comments: true
