@@ -165,6 +165,8 @@ class Adagrad: # Adagrad 구현
 
 # RMSProp
 
+<p align="center"><img src="/MYPICS/Deep_Learning/Adam/RMSprop.png" width = "400" ></p>
+
 위에서 설명한 Adagrad의 단점을 보완하기 위해서 과거의 모든 기울기를 균일하게 더하지 않고 먼 과거의 기울기는 조금씩, 최근의 기울기는 크게 반영하는 기법이 만들어졌습니다. 이를 **지수이동평균, Exponential Moving Average, EMA** 라고 하고 과거 기울기의 반영 규모를 기하급수적으로 감소시킵니다.
 
 $$
@@ -210,6 +212,8 @@ class RMSProp:
 <br>
 
 # Adam
+
+<p align="center"><img src="/MYPICS/Deep_Learning/Adam/adam1.png" width = "400" ></p>
 
 Adaptive Moment Estimation(Adam)은 딥러닝 최적화 기법 중 하나로써 Momentum 방식과 Adagrad(관점에따라 RMSProp이라고 하는 사람도 많습니다)
 <br>
