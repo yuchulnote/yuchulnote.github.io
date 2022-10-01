@@ -24,7 +24,7 @@ I have a goal to make a AI assistance like Jarvis in Iron Man before i graduate.
 
 I don't know if i can make it, but **i won't stop.**
 
-## 🐯 About Me
+## 🌟 About Me 🌟
 
 * B. S. Student, Department of Robotics, Kwangwoon University. (2022.3~)
     * Major in Intelligent System
