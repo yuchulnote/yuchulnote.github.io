@@ -22,12 +22,14 @@ main:
 
 
 side:
-  - title: Machine Learning
+  - title: 공부기록💡
     children:
       - title: "Deep Learning"
         url: /categories/Deep_Learning_Study
       - title: "Model"
         url: /categories/Models
+      - title: "Computer Vision"
+        url: /categories/ComputerVision
  
   - title: Language
     children:

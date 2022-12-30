@@ -13,23 +13,27 @@
       <li>
 
         <!--span 태그로 카테고리들을 크게 분류 ex) C/C++/C#-->
-        <span class="nav__sub-title">Machine Learning</span>
+        <span class="nav__sub-title">공부기록💡</span>
             <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
             <ul>
                 <!--Cpp 카테고리 글들을 모아둔 페이지인 /categories/cpp 주소의 글로 링크 연결-->
                 <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
                 {% for category in site.categories %}
+
+                    {% if category[0] == "Models" %}
+                        <li><a href="/categories/Models" class="">Models ({{category[1].size}})</a></li>
+                    {% endif %}
                     
                     {% if category[0] == "Deep_Learning_Study" %}
                         <li><a href="/categories/Deep_Learning_Study" class="">Deep Leaning ({{category[1].size}})</a></li>
                     {% endif %}
 
-                    {% if category[0] == "VoiceRecognition" %}
-                        <li><a href="/categories/VoiceRecognition" class="">Voice Recognition ({{category[1].size}})</a></li>
+                    {% if category[0] == "Computer Vision" %}
+                        <li><a href="/categories/ComputerVision" class="">ComputerVision ({{category[1].size}})</a></li>
                     {% endif %}
 
-                    {% if category[0] == "Models" %}
-                        <li><a href="/categories/Models" class="">Models ({{category[1].size}})</a></li>
+                    {% if category[0] == "VoiceRecognition" %}
+                        <li><a href="/categories/VoiceRecognition" class="">Voice Recognition ({{category[1].size}})</a></li>
                     {% endif %}
                 
             
