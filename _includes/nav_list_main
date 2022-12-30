@@ -28,7 +28,7 @@
                         <li><a href="/categories/Deep_Learning_Study" class="">Deep Leaning ({{category[1].size}})</a></li>
                     {% endif %}
 
-                    {% if category[0] == "Computer Vision" %}
+                    {% if category[0] == "ComputerVision" %}
                         <li><a href="/categories/ComputerVision" class="">ComputerVision ({{category[1].size}})</a></li>
                     {% endif %}
 
