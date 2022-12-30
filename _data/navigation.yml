@@ -22,12 +22,12 @@ main:
 
 
 side:
-  - title: 공부기록💡
+  - title: 🖋공부기록🔬
     children:
-      - title: "Deep Learning"
-        url: /categories/Deep_Learning_Study
       - title: "Model"
         url: /categories/Models
+      - title: "Deep Learning"
+        url: /categories/Deep_Learning_Study
       - title: "Computer Vision"
         url: /categories/ComputerVision
  
