@@ -24,7 +24,7 @@ main:
 side:
   - title: 🖋공부기록🔬
     children:
-      - title: "Model"
+      - title: "Project"
         url: /categories/Models
       - title: "Deep Learning"
         url: /categories/Deep_Learning_Study

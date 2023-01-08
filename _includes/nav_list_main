@@ -20,8 +20,8 @@
                 <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
                 {% for category in site.categories %}
 
-                    {% if category[0] == "Models" %}
-                        <li><a href="/categories/Models" class="">Models ({{category[1].size}})</a></li>
+                    {% if category[0] == "Project" %}
+                        <li><a href="/categories/Project" class="">Project ({{category[1].size}})</a></li>
                     {% endif %}
                     
                     {% if category[0] == "Deep_Learning_Study" %}

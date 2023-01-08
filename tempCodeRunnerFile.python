@@ -1,2 +1,12 @@
-황찬욱 = 바보
-print(황찬욱)
+import cv2, numpy as np
+from torchvision import transforms
+import sys, os
+
+img1 = cv2.imread('/Users/yuchul/Anaconda/Computer_Vision/Example/ex1_1.jpg')
+img2 = cv2.imread('/Users/yuchul/Anaconda/Computer_Vision/Example/ex1_2.jpg')
+gray1 = cv2.cvtColor(img1, cv2.COLOR_BGR2GRAY)
+gray2 = cv2.cvtColor(img2, cv2.COLOR_BGR2GRAY)
+
+cv2.imshow('img1',img1)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
