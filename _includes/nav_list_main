@@ -53,7 +53,7 @@
                 {% for category in site.categories %}
                 
                     {% if category[0] == "nRF52" %}
-                        <li><a href="/categories/nRF52" class="">nRF52 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/nRF52, NU40 DK" class="">nRF52 ({{category[1].size}})</a></li>
                     {% endif %}
 
                     {% if category[0] == "ATmega128" %}

@@ -24,8 +24,12 @@ main:
 side:
   - title: 🖋공부기록🔬
     children:
+      - title: "Python"
+        url: /categories/Python
+      - title: "C"
+        url: /categories/C
       - title: "Project"
-        url: /categories/Models
+        url: /categories/Project
       - title: "Deep Learning"
         url: /categories/Deep_Learning_Study
       - title: "Computer Vision"
@@ -35,21 +39,14 @@ side:
  
   - title: MCU
     children:
-      - title: "nRF52"
+      - title: "nRF52, NU40 DK"
         url: /categories/nRF52
       - title: "ATmega128"
         url: /categories/ATmega128
-  
-  - title: Language
-    children:
-      - title: "Python"
-        url: /categories/Python
-      - title: "C"
-        url: /categories/C
-  
+      
   - title: 잡다한 오류, 팁 정리💡
     children:
-      - title: "GitBlog"
-        url: /categories/GitBlog
       - title: "Tips"
         url: /categories/Tips
+      - title: "GitBlog"
+        url: /categories/GitBlog
