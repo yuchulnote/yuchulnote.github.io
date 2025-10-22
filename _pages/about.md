@@ -8,7 +8,7 @@ sidebar_main: true
 
 ![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=250&section=header&text=Hi,%20I'm%20Yuchul%20Jung%20💡&fontSize=60&animation=fadeIn&fontAlignY=38&desc=AI,SW%20Engineer&descAlignY=55&descAlign=72.8)
 
-### :fire: Experience
+### 🔥 Experience
 > Technical Development Div. Manager of "HospiCare" (2025.06~)<br>
 > AI Muscle Activity Analysis Device "MuscleSync", Cofounder & CTO(COO) (2024.01 ~ 2025.03)
 > AI Webtoon Search Engine "ODI", Cofounder & Developer (2023.07 ~ 2023.12)<br>
@@ -70,15 +70,14 @@ sidebar_main: true
 > 인공지능 기반의 근활성도 분석 서비스 제공 방법 및 시스템, 출원<br>
 <br>
 
-### :mortar_board: Education
+### 🎓 Education
 <!-- **I am studying at the Department of Robotics of Kwangwoon University.** -->
 > 🏫 B.S. Student, Department of Robotics, Kwangwoon University. (2022.3~)<br>
 >> Major in Intelligent System
 <br>
 
 ### 👉 Contact Me
-> [<img height="48px" width="48px" alt="Icone Github" src="https://skillicons.dev/icons?i=github&theme=light"/>](https://yuchulnote.github.io/)
-> [<img height="48px" width="48px" alt="Icone Instagram" src="https://skillicons.dev/icons?i=instagram&theme=light"/>](https://www.instagram.com/yuchul2_0_0/)
+E-Mail : yuchul.jung@hospicare.co.kr
 <br>
 
 <!--
