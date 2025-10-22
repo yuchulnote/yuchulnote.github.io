@@ -30,10 +30,26 @@ side:
         url: /categories/Deep_Learning_Study
       - title: "Computer Vision"
         url: /categories/ComputerVision
+      - title: "Voice Recognition"
+        url: /categories/VoiceRecognition
  
+  - title: MCU
+    children:
+      - title: "nRF52"
+        url: /categories/nRF52
+      - title: "ATmega128"
+        url: /categories/ATmega128
+  
   - title: Language
     children:
       - title: "Python"
         url: /categories/Python
       - title: "C"
         url: /categories/C
+  
+  - title: 잡다한 오류, 팁 정리💡
+    children:
+      - title: "GitBlog"
+        url: /categories/GitBlog
+      - title: "Tips"
+        url: /categories/Tips

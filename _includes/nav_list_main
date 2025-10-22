@@ -20,6 +20,14 @@
                 <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
                 {% for category in site.categories %}
 
+                    {% if category[0] == "Python" %}
+                        <li><a href="/categories/Python" class=""> Python ({{category[1].size}})</a></li>
+                    {% endif %}
+
+                    {% if category[0] == "C" %}
+                        <li><a href="/categories/C" class=""> C ({{category[1].size}})</a></li>
+                    {% endif %}
+
                     {% if category[0] == "Project" %}
                         <li><a href="/categories/Project" class="">Project ({{category[1].size}})</a></li>
                     {% endif %}
@@ -39,59 +47,36 @@
             
                 {% endfor %}
             </ul>
-            
-        <span class="nav__sub-title">Language</span>
-            <ul>
-                {% for category in site.categories %}
-                    
-                    {% if category[0] == "Python" %}
-                        <li><a href="/categories/Python" class=""> Python ({{category[1].size}})</a></li>
-                    {% endif %}
-
-                    {% if category[0] == "C" %}
-                        <li><a href="/categories/C" class=""> C ({{category[1].size}})</a></li>
-                    {% endif %}
-
-                {% endfor %}
-            </ul>
         
-        <span class="nav__sub-title">GitBlog</span>
+        <span class="nav__sub-title">MCU</span>
             <ul>
                 {% for category in site.categories %}
-                    
-                    {% if category[0] == "GitBlog" %}
-                        <li><a href="/categories/GitBlog" class="">깃블 오류 및 꾸미기 ({{category[1].size}})</a></li>
+                
+                    {% if category[0] == "nRF52" %}
+                        <li><a href="/categories/nRF52" class="">nRF52 ({{category[1].size}})</a></li>
                     {% endif %}
-                    
-                    {% endfor %}
-            </ul>    
 
-        <span class="nav__sub-title">Firmware</span>
-            <ul>
-                {% for category in site.categories %}
-                    
                     {% if category[0] == "ATmega128" %}
                         <li><a href="/categories/ATmega128" class="">ATmega128 ({{category[1].size}})</a></li>
                     {% endif %}           
 
                 {% endfor %}
             </ul>
-
-         <span class="nav__sub-title">Application_Development</span>
+        
+        <span class="nav__sub-title">잡다한 오류, 팁 정리💡</span>
             <ul>
                 {% for category in site.categories %}
                     
-                    {% if category[0] == "Intro" %}
-                        <li><a href="/categories/Intro" class="">Intro ({{category[1].size}})</a></li>
-                    {% endif %}     
-                    
-                    {% if category[0] == "JavaScript" %}
-                        <li><a href="/categories/JavaScript" class="">JavaScript ({{category[1].size}})</a></li>
+                    {% if category[0] == "Tips" %}
+                        <li><a href="/categories/Tips" class="">Tips ({{category[1].size}})</a></li>
                     {% endif %}
 
-                {% endfor %}
-            </ul>
+                    {% if category[0] == "GitBlog" %}
+                        <li><a href="/categories/GitBlog" class="">깃블 오류 및 꾸미기 ({{category[1].size}})</a></li>
+                    {% endif %}
 
+                    {% endfor %}
+            </ul>    
       </li>
   </ul>
 </nav>
