@@ -1,1 +1,2 @@
-google.com, pub-9544793920138567, DIRECT, f08c47fec0942fa0
+# 광고 비활성화: 2025-10-29
+# google.com, pub-9544793920138567, DIRECT, f08c47fec0942fa0
